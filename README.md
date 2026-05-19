@@ -7,6 +7,27 @@ Oracle Cloud Infrastructure (OCI) の **Always Free** Ampere A1 インスタン�
 
 インストール後は **リモートデスクトップ (RDP)** で接続可能な状態になります。
 
+---
+
+## 🎯 これは何？（30秒で）
+
+- **誰のため**：無料で Windows ARM 開発環境がほしい開発者／クラウド検証で OCI Always Free を活用したい個人
+- **何が解決される**：OCI Always Free Ampere A1 (4 OCPU / 24 GB / 24/365 無料) を **Ubuntu から Windows 11 Pro ARM** に置換し、**RDP でアクセス可能なクラウド Windows 環境** を 0 円で構築
+- **なぜ既存ツールではダメか**：MS Azure 等の Windows VM は月額課金。本ツールは **OCI の Always Free 枠** を最大活用し、ARM Windows のクラウド検証を無償化
+- **使う条件**：OCI アカウント（Always Free 利用可能）／Ampere A1 インスタンス（Ubuntu）
+
+## 💰 想定ユースケース・価格帯
+
+| 用途 | 形態 |
+|---|---|
+| 個人検証・ARM 開発環境構築 | 無料（MIT） |
+| 企業内検証用 Windows ARM 環境のセットアップ支援 | 応相談 |
+| Windows ARM 上の動作検証・ハンズオン研修 | 応相談 |
+
+> ⚠️ Microsoft の Windows ライセンス条項・OCI の利用規約を遵守してご利用ください。Windows のアクティベーションには別途ライセンスが必要です。
+
+---
+
 ## 対象スペック
 
 | 項目 | 値 |
@@ -182,3 +203,11 @@ chmod +x oci-win11-arm-installer.sh remote-install.sh
 - [Windows 11 on Ampere (GitHub)](https://github.com/AmpereComputing/Windows-11-On-Ampere)
 - [VirtIO ARM64 QEMU Guide](https://virtio-win.github.io/Knowledge-Base/Windows-arm64-vm-using-qemu.html)
 - [Oracle VirtIO Drivers](https://docs.oracle.com/en/operating-systems/oracle-linux/kvm-virtio/)
+
+---
+
+## 🤝 商用利用・カスタマイズ依頼
+
+- 個人・社内利用は無料（MIT ライセンス）
+- 法人・自治体・SI 向け導入支援、カスタマイズ、診断レポート受託は応相談
+- 連絡先：highdefinitionaudiodriver@gmail.com

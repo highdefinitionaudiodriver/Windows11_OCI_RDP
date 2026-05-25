@@ -323,3 +323,15 @@ chmod +x oci-win11-arm-installer.sh remote-install.sh
 - 個人・社内利用は無料（MIT ライセンス）
 - 法人・自治体・SI 向け導入支援、カスタマイズ、診断レポート受託は応相談
 - 連絡先：highdefinitionaudiodriver@gmail.com
+
+<!-- CODEX-CURRENT-STATUS:START -->
+## 現状サマリ (2026-05-25)
+
+- 対象: OCI Ampere A1 - Windows 11 Pro ARM インストーラー
+- 作業ブランチ: feat/sellable-v1
+- README更新時点の参照コミット: 405b9c3 chore: add .gitignore to ignore claude directory
+- README とリポジトリ内の既存ファイルを起点に継続作業可能。
+- 主要な確認コマンド: README 記載のセットアップ・検証コマンド
+- 次に進めるなら、README 内の利用手順と既存 docs / tests を起点に、未整備の検証手順・引き継ぎメモ・CI 化を補強する。
+<!-- CODEX-CURRENT-STATUS:END -->
+

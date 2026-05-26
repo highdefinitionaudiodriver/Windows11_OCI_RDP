@@ -84,6 +84,8 @@ chmod +x oci-win11-arm-installer.sh remote-install.sh
 
 ### Step 2: インストーラー実行
 
+実行前に [OCI Windows 11 ARM 事前チェックリスト](docs/PREFLIGHT_CHECKLIST.md) を確認してください。無料枠、RDP 開放、ISO、SSH 切断対策、ライセンス確認を先に済ませると、途中失敗時の切り戻しがかなり楽になります。
+
 ```bash
 ./oci-win11-arm-installer.sh
 ```
